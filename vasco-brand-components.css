@@ -1,0 +1,214 @@
+@import url(vasco-brand-color-scheme.css);
+
+/* Button */
+.cartoon-btn {
+    width: var(--button-cartoon-width);
+    margin: var(--button-cartoon-margin);
+    text-align: var(--button-cartoon-text-align);
+    text-decoration: var(--button-cartoon-text-decoration);
+    font-weight: var(--button-cartoon-font-weight);
+    font-size: var(--button-cartoon-font-size);
+    font-family: var(--button-cartoon-font-family);
+    color: var(--button-cartoon-color);
+    padding: var(--button-cartoon-padding);
+    background: var(--button-cartoon-background);
+    border: var(--button-cartoon-border);
+    border-radius: var(--button-cartoon-border-radius);
+    box-shadow: var(--button-cartoon-box-shadow);
+    cursor: var(--button-cartoon-cursor);
+    transition: var(--button-cartoon-transition);
+}
+.cartoon-btn:hover {
+    transform: var(--button-cartoon-hover-focus-transform);
+    border: var(--button-cartoon-hover-focus-border);
+    box-shadow: var(--button-cartoon-hover-focus-box-shadow);
+}
+
+/* Card */
+.card {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    border: none;
+}
+.card--flud {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card--row {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+.card--row--50 {
+    width: 50%;
+}
+.card--row--100 {
+    width: 100%;
+}
+.card--column {
+    display: flex;
+    flex-direction: column;
+}
+.card--column--50 {
+    width: 50%;
+}
+.card--column--100 {
+    width: 100%;
+}
+.card--overlay-shadow {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+    /* background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(0, 0, 0, 1) 10%, rgba(255, 0, 0, 0) 100%); */
+}
+.card__divimg  {
+    background-size: cover;
+    background-position: center;
+    border: 0.5px solid var(--base-pure-tide-20-black);
+    border-radius: 25px;
+}
+.card__img {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover;
+    object-position: center;
+    border: 0.5px solid var(--base-pure-tide-20-black);
+    border-radius: 25px;
+}
+/* Card__content */
+.card__content {
+    padding: 15px;
+    border-radius: 25px;
+}
+.card__content--black {
+    background-color: var(--base-pure-black-color);
+    border: 0.5px solid var(--base-pure-tide-20-black);
+}
+.card__content--orange {
+    background-color: var(--base-brand-secondary-color);
+    border: 0.5px solid var(--base-pure-black-color);
+}
+.card__content--transparent {
+    background-color: transparent;
+    border: 0.5px solid var(--base-pure-tide-20-black);
+}
+.card__content--right {
+    text-align: right;
+}
+.card__content--left {
+    text-align: left;
+}
+.card__content--center {
+    text-align: center;
+}
+.card__content--justify {
+    text-align: justify;
+}
+/*  */
+
+/* Rectangle */
+.rectangle {
+    margin: auto;
+    width: 50px;
+    height: 5px;
+    background-color: var(--base-brand-secondary-color);
+}
+
+/* Button */
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    /* max-width: 500px; */
+    padding: clamp(10px, 5vw, 15px);
+    border: 0.5px solid var(--base-pure-tide-20-black);
+    border-radius: 25px;
+}
+.btn h1 {
+    font-size: clamp(0.9rem, 5vw, 1.3rem);
+    margin: 0;
+    margin-bottom: 5px;
+}
+.btn p {
+    font-size: clamp(0.8rem, 3vw, 1rem);
+    color: var(--base-pure-tide-20-black);
+    margin: 0;
+}
+.btn svg {
+    padding: clamp(15px, 5vw, 25px);
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.btn--20 {
+    width: 20%;
+}
+.btn--50 {
+    width: 50%;
+}
+.btn--80 {
+    width: 80%;
+}
+.btn--100 {
+    width: 100%;
+}
+.btn--left {
+    text-align: left;
+}
+.btn--right {
+    text-align: right;
+}
+.btn--center {
+    text-align: center;
+    margin: auto;
+}
+.btn--binance {
+    color: var(--base-pure-black-color);
+    background-color: #F3BA2F;
+    border-radius: 25px;
+} .btn--binance svg {
+    fill: #000;
+    border: 2px solid #000;
+}
+.btn--orange {
+    background-color: var(--base-brand-secondary-color);
+    border: none;
+    border-radius: 25px;
+}
+.btn--threads {
+    background-color: #000;
+    border-radius: 25px;
+}
+.btn--threads-icon {
+    background: #fff;
+    background-image: url(src/imgs/threads.svg);
+    background-size: cover;
+    background-position: center;
+}
+.btn--twitter {
+    background-color: #000;
+    border-radius: 25px;
+}
+.btn--discord {
+    background-color: #7289da;
+    border-radius: 25px;
+}
+.btn--telegram {
+    background-color: #24A1DE;
+    border-radius: 25px;
+}
