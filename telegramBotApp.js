@@ -6,5 +6,5 @@ document.addEventListener("DOMContentLoaded", function() {
     Telegram.WebApp.disableVerticalSwipes();
 
     // Thay đổi màu của phần đầu (header)
-    Telegram.WebApp.headerColor("#FF4800"); // Sử dụng giá trị phù hợp cho màu sắc
+    Telegram.WebApp.themeParams.headerColor = "#FF5733"; // Sử dụng giá trị phù hợp cho màu sắc
 });
