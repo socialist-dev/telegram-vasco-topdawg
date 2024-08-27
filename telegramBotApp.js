@@ -7,4 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Thay đổi màu của phần đầu (header)
     Telegram.WebApp.setHeaderColor('#000000'); // Sử dụng giá trị phù hợp cho màu sắc
+
+    //Bật nút trở về
+    Telegram.WebApp.BackButton.show();
 });
