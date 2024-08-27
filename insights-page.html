@@ -9,7 +9,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="robots" content="noindex,nofollow" />
     <title>VA$CO Topdawg</title>
-    <link rel="stylesheet" href="vasco-app-v2.css">
+    <link rel="stylesheet" href="insights-page.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/themes/default/style.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -111,7 +111,7 @@
         <div class="container__content" id="containerContent">
             <div class="container__content__items">
                 <!-- <div class="card--overlay-shadow"></div> -->
-                <div class="container__content__items--item1" style="background-color: blue; margin: 10px;">
+                <div class="container__content__items--item1" style="margin: 10px;">
                     <!-- <div class="content--centered">
                     </div> -->
                     <div class="gecko-coin-price-marquee-widget">
@@ -119,8 +119,8 @@
                         <gecko-coin-price-marquee-widget locale="en" dark-mode="true" outlined="true" coin-ids="solana,the-open-network,ronin,bitcoin,ethereum,tether,dogecoin" initial-currency="usd"></gecko-coin-price-marquee-widget>
                     </div>
                     <h1>Coin Price Chart</h1>
-                    <select id="coinDropdown">
-                        <option value="" selected disabled>Select a Coin</option>
+                    <select id="coinDropdown" class="coin-dropdown">
+                        <option id="test-option" value="" selected disabled>Select a Coin</option>
                         <option value="bitcoin">Bitcoin BTC</option>
                         <option value="ethereum">Ethereum ETH</option>
                         <option value="binancecoin">Binance BNB</option>

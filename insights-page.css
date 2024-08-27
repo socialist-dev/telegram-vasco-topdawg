@@ -1,0 +1,22 @@
+@import url(vasco-app-v2.css);
+
+.coin-dropdown {
+    /* width: 100%; */
+    color: var(--base-pure-white-color);
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--base-pure-tide-10-black);
+    font-family: var(--typeface-subtile-paragraph);
+}
+
+option {
+    /* background-color: red; */
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#test-option {
+    margin-top: 10px;
+    border-radius: 10px;
+}
