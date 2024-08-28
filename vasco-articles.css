@@ -1,8 +1,12 @@
 
-@import url(vasco-app.css);
+@import url(vasco-app-v2.css);
 @import url(vasco-brand-color-scheme.css);
 @import url(vasco-brand-components.css);
 
+h1 {
+    /* Default for vasco-article */
+    font-size: 1.8rem;
+}
     
 .container__content { display: none;}
 
