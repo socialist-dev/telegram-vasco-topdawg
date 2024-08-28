@@ -8,15 +8,12 @@
     border-radius: 10px;
     background-color: var(--base-pure-tide-10-black);
     font-family: var(--typeface-subtile-paragraph);
+    outline: none;
 }
 
 option {
-    /* background-color: red; */
+    background-color: var(--base-pure-tide-10-black);
     margin-top: 10px;
     border-radius: 20px;
 }
 
-#test-option {
-    margin-top: 10px;
-    border-radius: 10px;
-}
