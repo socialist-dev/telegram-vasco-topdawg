@@ -89,28 +89,32 @@
             <div class="container__navbar__subcontainer">
                 <div class="container__navbar__openbtn">
                     <button class="openbtn" onclick="openNav()">
-                        <span class="material-symbols-rounded material-symbol">
+                        <!-- <span class="material-symbols-rounded material-symbol">
                             dock_to_left
-                        </span>
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#ffffe4"><path d="M182.67-98.67q-35.5 0-59.75-24.25t-24.25-59.75v-594.66q0-35.5 24.25-59.75t59.75-24.25h594.66q35.5 0 59.75 24.25t24.25 59.75v594.66q0 35.5-24.25 59.75t-59.75 24.25H182.67Zm372.66-84v-594.66H182.67v594.66h372.66Z"/></svg> -->
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#333333"><path d="M516.33-594.33v228q0 14.61 13 19.63 13 5.03 22.67-4.63L651.67-450q12-12.67 12-30t-12-30L552-608.67q-9.67-9.66-22.67-4.63-13 5.02-13 18.97ZM182.67-98.67q-35.5 0-59.75-24.25t-24.25-59.75v-594.66q0-35.5 24.25-59.75t59.75-24.25h594.66q35.5 0 59.75 24.25t24.25 59.75v594.66q0 35.5-24.25 59.75t-59.75 24.25H182.67Zm222-84h372.66v-594.66H404.67v594.66Z"/></svg> -->
+                        </span> -->
+                        <i class="fa-solid fa-bars fa-xl icon-navbar"></i>
                     </button>
+                    <p class="btn-name">Sidebar</p>
                 </div>
                 <div class="container__navbar__homebtn">
-                    <button class="navbarbtn homebtn" onclick="window.location.href='vasco-app.html'">
-                        <span class="material-symbols-rounded material-symbol home-symbol">
+                    <button class="navbarbtn homebtn" onclick="window.location.href='vasco-app-v2.html'">
+                        <!-- <span class="material-symbols-rounded material-symbol home-symbol">
                             home
-                        </span>
+                        </span> -->
+                        <i class="fa-solid fa-house fa-xl icon-navbar"></i>
                         <!-- <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#ffffe4"><path d="M144-186.67v-378.66q0-19.84 9.08-37.5 9.09-17.67 25.25-30.17l252-188.67Q452.45-838 479.89-838t50.44 16.33l252 188.67q15.5 12.5 24.59 30.17 9.08 17.66 9.08 37.5v378.66q0 35.5-24.25 59.75T732-102.67H609q-17.83 0-30.08-12.25T566.67-145v-213.33q0-17.17-12.25-29.42T525-400h-89.33q-17.84 0-30.09 12.25t-12.25 29.42V-145q0 17.83-12.25 30.08t-29.41 12.25H228q-35.5 0-59.75-24.25T144-186.67Z"/></svg> -->
                     </button>
+                    <p class="btn-name">Home</p>
                 </div>
                 <div class="container__navbar__homebtn">
-                    <button class="navbarbtn" onclick="window.location.href=''">
-                        <span class="material-symbols-rounded material-symbol">
+                    <button class="navbarbtn" onclick="window.location.href='insights-page.html'">
+                        <!-- <span class="material-symbols-rounded material-symbol">
                             query_stats
-                        </span>
+                        </span> -->
+                        <i class="fa-solid fa-chart-simple fa-xl icon-navbar"></i>
                         <!-- <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#333333"><path d="M153.22-111.67q-17.24 0-29.39-12.24-12.16-12.24-12.16-29.42V-201q0-17.18 12.27-29.42 12.27-12.25 29.5-12.25t29.73 12.25q12.5 12.24 12.5 29.42v47.67q0 17.18-12.47 29.42-12.47 12.24-29.98 12.24Zm163.33 0q-17.23 0-29.39-12.24T275-153.33V-341q0-17.18 12.27-29.42 12.27-12.25 29.5-12.25t29.73 12.25Q359-358.18 359-341v187.67q0 17.18-12.47 29.42-12.46 12.24-29.98 12.24Zm163.33 0q-17.23 0-29.39-12.24t-12.16-29.42v-134.34q0-17.18 12.28-29.42 12.27-12.24 29.5-12.24 17.22 0 29.72 12.24t12.5 29.42v134.34q0 17.18-12.46 29.42-12.47 12.24-29.99 12.24Zm163.34 0q-17.24 0-29.39-12.24-12.16-12.24-12.16-29.42v-234.34q0-17.18 12.27-29.42 12.27-12.24 29.5-12.24t29.73 12.24q12.5 12.24 12.5 29.42v234.34q0 17.18-12.47 29.42-12.47 12.24-29.98 12.24Zm163.33 0q-17.23 0-29.39-12.24T765-153.33V-521q0-17.18 12.27-29.42 12.27-12.25 29.5-12.25t29.73 12.25Q849-538.18 849-521v367.67q0 17.18-12.47 29.42-12.46 12.24-29.98 12.24ZM560-487.67q-16 0-31.49-6.43-15.49-6.44-28.18-18.57L400-613 183.67-397.33q-12.8 12.66-30.4 12.16-17.6-.5-29.18-13.16-12.42-12-12.26-29.17.17-17.17 12.5-29.5L341-672.33q12.49-12.53 27.74-18.43 15.26-5.91 31.26-5.91t31.61 5.91q15.61 5.9 27.39 18.43l101 101L777.67-789q12-12 29.33-11.83 17.33.16 29.58 12.16 11.75 12.67 11.59 29.84-.17 17.16-11.84 28.83L619-512.67q-11.57 12.39-27.28 18.7-15.72 6.3-31.72 6.3Z"/></svg> -->
                     </button>
+                    <p class="btn-name">Insights</p>
                 </div>
             </div>
         </div>
@@ -121,7 +125,7 @@
                 <div class="container__sidebar__items__item1 card card__content card__content--black">
                     <h1 style="text-align: center;color: #ff4800; font-family: var(--typeface-title);">VA$CO APP</h1>
                     <img src="src/imgs/mob.gif" style="border-radius: 20px; width: 100%;" alt="pepe" loading="lazy">
-                    <p style="color: #ffffe4; text-align: center;">Web app học Blockchain, Web3, Crypto (+ xạo lol) của VA$CO. Đang học cách tải $ trên mạng về!</p>
+                    <p style="color: #ffffe4; text-align: center;">Web app học Blockchain, Web3, Crypto của VA$CO. Đang học cách tải $ trên mạng về!</p>
                </div>
                <!-- <div class="container__sidebar__ items__item2 sidebar__item--dropdown" tabindex="0" onclick="window.location.href='vasco-app.html'">
                    <div class="icon">
@@ -142,7 +146,7 @@
                    <div class="icon">
                        <i class="fa-brands fa-ethereum fa-xl"></i>
                    </div>
-                   <p>Blockchain 101 Mind Map</p>
+                   <p>Blockchain 101 Tree Map</p>
                </div>
                <div class="container__sidebar__ items__item5 sidebar__item--dropdown card__content--black" tabindex="0" onclick="window.location.href='ingsights-page-for-test.html'">
                     <div class="icon">
@@ -358,28 +362,29 @@
             <div class="container__navbar__subcontainer">
                 <div class="container__navbar__openbtn">
                     <button class="openbtn" onclick="openNav()">
-                        <span class="material-symbols-rounded material-symbol">
+                        <!-- <span class="material-symbols-rounded material-symbol">
                             dock_to_left
-                        </span>
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#ffffe4"><path d="M182.67-98.67q-35.5 0-59.75-24.25t-24.25-59.75v-594.66q0-35.5 24.25-59.75t59.75-24.25h594.66q35.5 0 59.75 24.25t24.25 59.75v594.66q0 35.5-24.25 59.75t-59.75 24.25H182.67Zm372.66-84v-594.66H182.67v594.66h372.66Z"/></svg> -->
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#333333"><path d="M516.33-594.33v228q0 14.61 13 19.63 13 5.03 22.67-4.63L651.67-450q12-12.67 12-30t-12-30L552-608.67q-9.67-9.66-22.67-4.63-13 5.02-13 18.97ZM182.67-98.67q-35.5 0-59.75-24.25t-24.25-59.75v-594.66q0-35.5 24.25-59.75t59.75-24.25h594.66q35.5 0 59.75 24.25t24.25 59.75v594.66q0 35.5-24.25 59.75t-59.75 24.25H182.67Zm222-84h372.66v-594.66H404.67v594.66Z"/></svg> -->
+                        </span> -->
+                        <i class="fa-solid fa-bars fa-xl icon-navbar"></i>
                     </button>
                     <p class="btn-name">Sidebar</p>
                 </div>
                 <div class="container__navbar__homebtn">
                     <button class="navbarbtn homebtn" onclick="window.location.href='vasco-app-v2.html'">
-                        <span class="material-symbols-rounded material-symbol home-symbol">
+                        <!-- <span class="material-symbols-rounded material-symbol home-symbol">
                             home
-                        </span>
+                        </span> -->
+                        <i class="fa-solid fa-house fa-xl icon-navbar"></i>
                         <!-- <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#ffffe4"><path d="M144-186.67v-378.66q0-19.84 9.08-37.5 9.09-17.67 25.25-30.17l252-188.67Q452.45-838 479.89-838t50.44 16.33l252 188.67q15.5 12.5 24.59 30.17 9.08 17.66 9.08 37.5v378.66q0 35.5-24.25 59.75T732-102.67H609q-17.83 0-30.08-12.25T566.67-145v-213.33q0-17.17-12.25-29.42T525-400h-89.33q-17.84 0-30.09 12.25t-12.25 29.42V-145q0 17.83-12.25 30.08t-29.41 12.25H228q-35.5 0-59.75-24.25T144-186.67Z"/></svg> -->
                     </button>
                     <p class="btn-name">Home</p>
                 </div>
                 <div class="container__navbar__homebtn">
                     <button class="navbarbtn" onclick="window.location.href='insights-page.html'">
-                        <span class="material-symbols-rounded material-symbol">
+                        <!-- <span class="material-symbols-rounded material-symbol">
                             query_stats
-                        </span>
+                        </span> -->
+                        <i class="fa-solid fa-chart-simple fa-xl icon-navbar"></i>
                         <!-- <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#333333"><path d="M153.22-111.67q-17.24 0-29.39-12.24-12.16-12.24-12.16-29.42V-201q0-17.18 12.27-29.42 12.27-12.25 29.5-12.25t29.73 12.25q12.5 12.24 12.5 29.42v47.67q0 17.18-12.47 29.42-12.47 12.24-29.98 12.24Zm163.33 0q-17.23 0-29.39-12.24T275-153.33V-341q0-17.18 12.27-29.42 12.27-12.25 29.5-12.25t29.73 12.25Q359-358.18 359-341v187.67q0 17.18-12.47 29.42-12.46 12.24-29.98 12.24Zm163.33 0q-17.23 0-29.39-12.24t-12.16-29.42v-134.34q0-17.18 12.28-29.42 12.27-12.24 29.5-12.24 17.22 0 29.72 12.24t12.5 29.42v134.34q0 17.18-12.46 29.42-12.47 12.24-29.99 12.24Zm163.34 0q-17.24 0-29.39-12.24-12.16-12.24-12.16-29.42v-234.34q0-17.18 12.27-29.42 12.27-12.24 29.5-12.24t29.73 12.24q12.5 12.24 12.5 29.42v234.34q0 17.18-12.47 29.42-12.47 12.24-29.98 12.24Zm163.33 0q-17.23 0-29.39-12.24T765-153.33V-521q0-17.18 12.27-29.42 12.27-12.25 29.5-12.25t29.73 12.25Q849-538.18 849-521v367.67q0 17.18-12.47 29.42-12.46 12.24-29.98 12.24ZM560-487.67q-16 0-31.49-6.43-15.49-6.44-28.18-18.57L400-613 183.67-397.33q-12.8 12.66-30.4 12.16-17.6-.5-29.18-13.16-12.42-12-12.26-29.17.17-17.17 12.5-29.5L341-672.33q12.49-12.53 27.74-18.43 15.26-5.91 31.26-5.91t31.61 5.91q15.61 5.9 27.39 18.43l101 101L777.67-789q12-12 29.33-11.83 17.33.16 29.58 12.16 11.75 12.67 11.59 29.84-.17 17.16-11.84 28.83L619-512.67q-11.57 12.39-27.28 18.7-15.72 6.3-31.72 6.3Z"/></svg> -->
                     </button>
                     <p class="btn-name">Insights</p>
