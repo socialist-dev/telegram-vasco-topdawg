@@ -9,7 +9,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="robots" content="noindex,nofollow" />
     <title>VA$CO Topdawg</title>
-    <link rel="stylesheet" href="vasco-articles.css">
+    <link rel="stylesheet" href="vasco-app-v2.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/themes/default/style.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,7 +33,7 @@
     <!-- Container -->
     <div class="container" id="container">
         <!-- Navbar top -->
-        <div class="container__navbar navbar--top">
+        <div class="container__navbar navbar--top" id="containerNavbar">
             <div class="container__navbar__subcontainer">
                 <div class="container__navbar__openbtn">
                     <button class="openbtn" onclick="openNav()">
@@ -55,7 +55,7 @@
                     <p class="btn-name">Home</p>
                 </div>
                 <div class="container__navbar__homebtn">
-                    <button class="navbarbtn" onclick="window.location.href='insights-page-for-test.html'">
+                    <button class="navbarbtn" onclick="window.location.href='insights-page-for-text.html'">
                         <!-- <span class="material-symbols-rounded material-symbol">
                             query_stats
                         </span> -->
@@ -75,6 +75,12 @@
                     <img src="src/imgs/mob.gif" style="border-radius: 20px; width: 100%;" alt="pepe" loading="lazy">
                     <p style="color: #ffffe4; text-align: center;">Web app học Blockchain, Web3, Crypto của VA$CO. Đang học cách tải $ trên mạng về!</p>
                </div>
+               <!-- <div class="container__sidebar__ items__item2 sidebar__item--dropdown" tabindex="0" onclick="window.location.href='vasco-app.html'">
+                   <div class="icon">
+                       <i class="fa-solid fa-house fa-xl"></i>
+                   </div>
+                   <p>Home</p>
+               </div> -->
                <div class="container__sidebar__ items__item3 sidebar__item--dropdown card__content--black" tabindex="0" onclick="toggleDropdown('tree-container')">
                    <div class="icon">
                        <i class="fa-solid fa-folder-tree fa-xl"></i>
@@ -105,33 +111,22 @@
             </div>
         </div>
         <!--  -->
-        <!-- Container content, just need class container__content for navbar widescreen -->
-        <div class="container__content"></div>
-        <!--  -->
-        <!-- Container articles -->
-        <div class="container__articles">
-            <div id="article-child" class="article-section" style="color: white;">
-                <div class="article-section__heading">
-                    <div class="rectangle"></div>
-                    <h1>BLOCKCHAIN SERIES 101</h1>
+        <!-- Container content -->
+        <div class="container__content" id="containerContent">
+            <div class="container__content__items">
+                <!-- <div class="card--overlay-shadow"></div> -->
+                <div class="container__content__items--item1">
+                    <div style="height: 100vh; margin: 10px; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                        <img src="src/imgs/sparkle.gif" style="width: 100%; max-width: 375px" alt="">
+                        <p>Nội dung này đang được nấu. <br>Đợi nhé anh em!</p>
+                    </div>
                 </div>
-                <div class="article-section__card card__content--justify">
-                    <h2>Blockchain là gì?</h2>
-                    <p>
-                        Chuỗi bài viết về Blockchain được biên soạn lại theo cấu trúc cây phân cấp, có thể 
-                        gọi là sơ đồ cây phân cấp (Hierarchy Tree Diagram). Các kiến thức về Blockchain sẽ 
-                        được cập nhật và rẽ nhánh liên tục, chỉ tồn tại một sơ đồ cây phân cấp duy 
-                        nhất để anh em dễ dàng hệ thống hóa kiến thức, thuật ngữ đã học. 
-                        <br>
-                        <br>
-                        Thị trường tiền điện tử biến động liên tục, các công nghệ mới liên tục phát triển 
-                        do đó các kiến thức mới luôn 
-                    </p>
-                    <a class="article-section__btn" href=""><p>Bài viết tiếp theo</p></a>
-                    <!-- <i class="fa-solid fa-arrow-right fa-rotate-by" style="color: #ffffe4; --fa-rotate-angle: 45deg;"></i> -->
+                <div class="container__content__items--item2">
+                    
                 </div>
             </div>
         </div>
+        <!--  -->
         <!-- Navbar bottom -->
         <div class="container__navbar navbar--bottom">
             <div class="container__navbar__subcontainer">
