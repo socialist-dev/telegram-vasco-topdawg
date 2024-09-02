@@ -142,11 +142,12 @@ function init() {
     myDiagram.model = model;
 
     var currentAngle = 90;  // Initial angle of rotation
-    document.getElementById('rotateButton').addEventListener('click', function() {
-      currentAngle = (currentAngle + 90) % 180; // Update angle
-      myDiagram.layout.angle = currentAngle;  // Apply new angle
-      myDiagram.layout.invalidateLayout();  // Recalculate layout
-    });
+    // Rotate button was hided
+    // document.getElementById('rotateButton').addEventListener('click', function() {
+    //   currentAngle = (currentAngle + 90) % 180; // Update angle
+    //   myDiagram.layout.angle = currentAngle;  // Apply new angle
+    //   myDiagram.layout.invalidateLayout();  // Recalculate layout
+    // });
 
     // Đảm bảo sơ đồ hiển thị đầy đủ sau khi layout hoàn thành
     // myDiagram.addDiagramListener("InitialLayoutCompleted", function(e) {
