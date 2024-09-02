@@ -53,7 +53,7 @@ function init() {
 
     var model = $(go.TreeModel);
     model.nodeDataArray = [
-      { key: "1", name: "Blockchain", url: "vasco-articles.html" },
+      { key: "1", name: "Blockchain", url: "insights-page-for-test.html" },
       { key: "11", parent: "1", name: "1.1.Khái niệm" },
       { key: "111", parent: "11", name: "1.1.1.Blockchain là gì?" },
       { key: "112", parent: "11", name: "1.1.2.Lịch sử và sự phát triển" },

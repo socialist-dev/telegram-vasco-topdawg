@@ -7,7 +7,7 @@ $(document).ready(function() {
                     'text': 'Blockchain',
                     'id': 'child1',
                     'state': { 'opened': true }, // Expand original node
-                    'a_attr': { 'href': 'vasco-articles.html' },
+                    'a_attr': { 'href': 'insights-page-for-test.html' },
                     'children': [
                         { 
                             'text': '1.Khái niệm cơ bản',
@@ -151,203 +151,203 @@ $(document).ready(function() {
                         },
                     ]
                 },
-                {
-                  'text': 'Cryptocurrencies',
-                  'id': 'child2',
-                  'state': { 'opened': true }, // Mở rộng nút gốc
-                  'children': [
-                      { 
-                        'text': '2.1.Khái niệm cơ bản',
-                        'id': 'child2.1', // Thêm id cho mục con
-                        'state': { 'opened': true},
-                        'children': [
-                            {
-                              'text': '2.1.1.Tiền mã hóa là gì?',
-                              'id': 'child2.1.1',
-                              'state': { 'opened': true},
-                            },
-                            {
-                              'text': '2.1.2.Cách hoạt động của tiền mã hóa',
-                              'id': 'child2.1.2',
-                              'state': { 'opened': true},
-                            },
-                        ]
-                      },
-                      { 
-                        'text': '2.2.Các loại tiền mã hóa phổ biến',
-                        'id': 'child2.2', // Thêm id cho mục con
-                        'state': { 'opened': true},
-                        'children': [
-                            {
-                              'text': '2.2.1.Bitcoin (BTC)',
-                              'id': 'child2.2.1',
-                              'state': { 'opened': true},
-                            },
-                            {
-                              'text': '2.2.2.Ethereum (ETH)',
-                              'id': 'child2.2.2',
-                              'state': { 'opened': true},
-                            },
-                            {
-                              'text': '2.2.3.Altcoins và Token',
-                              'id': 'child2.2.3',
-                              'state': { 'opened': true},
-                            },
-                        ]
-                    },
-                    { 
-                      'text': '2.3.Các cơ chế đồng thuận',
-                      'id': 'child2.3', // Thêm id cho mục con
-                      'state': { 'opened': true},
-                      'children': [
-                          {
-                            'text': '2.3.1.Proof of Work (PoW)',
-                            'id': 'child2.3.1',
-                            'state': { 'opened': true},
-                          },
-                          {
-                            'text': '2.3.2.Proof of Stake (PoS)',
-                            'id': 'child2.3.2',
-                            'state': { 'opened': true},
-                          },
-                          {
-                            'text': '2.3.3.Các cơ chế đồng thuận mới',
-                            'id': 'child2.3.3',
-                            'state': { 'opened': true},
-                          },
-                      ]
-                    },
-                    { 
-                      'text': '2.4.Sàn giao dịch tiền mã hóa',
-                      'id': 'child2.4', // Thêm id cho mục con
-                      'state': { 'opened': true},
-                      'children': [
-                          {
-                            'text': '2.4.1.Sàn giao dịch tập trung (CEX)',
-                            'id': 'child2.4.1',
-                            'state': { 'opened': true},
-                          },
-                          {
-                            'text': '2.4.2.Sàn giao dịch phi tập trung (DEX)',
-                            'id': 'child2.4.2',
-                            'state': { 'opened': true},
-                          },
-                      ]
-                    },
-                    { 
-                      'text': '2.5.Ví tiền mã hóa',
-                      'id': 'child2.5', // Thêm id cho mục con
-                      'state': { 'opened': true},
-                      'children': [
-                          {
-                            'text': '2.5.1.Ví nóng (Hot Wallet)',
-                            'id': 'child2.5.1',
-                            'state': { 'opened': true},
-                          },
-                          {
-                            'text': '2.5.2.Ví lạnh (Cold Wallet)',
-                            'id': 'child2.5.2',
-                            'state': { 'opened': true},
-                          },
-                          {
-                            'text': '2.5.3.Ví không giám hộ (Non-custodial Wallets)',
-                            'id': 'child2.5.3',
-                            'state': { 'opened': true},
-                          },
-                      ]
-                    },
-                  ]
-                },
-                {
-                  'text': 'Smart Contracts',
-                  'id': 'child3',
-                  'state': {'opened': true},
-                  'children': [
-                    {
-                      'text': '3.1.Khái niệm cơ bản',
-                      'id': 'child3.1',
-                      'state': {'opened': true},
-                      'children': [
-                        {
-                          'text': '3.1.1.Hợp đồng thông minh là gì?',
-                          'id': 'child3.1.1',
-                          'state': {'opened': true},
-                        },
-                        {
-                          'text': '3.1.2.Lịch sử phát triển',
-                          'id': 'child3.1.1',
-                          'state': {'opened': true},
-                        },
-                      ]
-                    },
-                    {
-                      'text': '3.2.Cách thức hoạt động',
-                      'id': 'child3.2',
-                      'state': {'opened': true},
-                      'children': [
-                        {
-                          'text': '3.2.1.Cơ chế tự động hóa',
-                          'id': 'child3.2.1',
-                          'state': {'opened': true},
-                        },
-                        {
-                          'text': '3.1.2.Điều kiện và quy tắc (If-Then statements)',
-                          'id': 'child3.1.2',
-                          'state': {'opened': true},
-                        },
-                        {
-                          'text': '3.1.3.Hợp đồng thông minh tương tác (Composable Smart Contracts)',
-                          'id': 'child3.1.3',
-                          'state': {'opened': true},
-                        },
-                      ]
-                    },
-                    {
-                      'text': '3.3.Ứng dụng của hợp đồng thông minh',
-                      'id': 'child3.3',
-                      'state': {'opened': true},
-                      'children': [
-                        {
-                          'text': '3.3.1.Tài chính phi tập trung (DeFi)',
-                          'id': 'child3.3.1',
-                          'state': {'opened': true},
-                        },
-                        {
-                          'text': '3.3.2.Quyền sở hữu tài sản kỹ thuật số',
-                          'id': 'child3.3.2',
-                          'state': {'opened': true},
-                        },
-                        {
-                          'text': '3.3.3.Ứng dụng trong quản trị phi tập trung (DAO)',
-                          'id': 'child3.3.3',
-                          'state': {'opened': true},
-                        },
-                      ]
-                    },
-                    {
-                      'text': '3.4.Ứng dụng của hợp đồng thông minh',
-                      'id': 'child3.3',
-                      'state': {'opened': true},
-                      'children': [
-                        {
-                          'text': '3.3.1.Tài chính phi tập trung (DeFi)',
-                          'id': 'child3.3.1',
-                          'state': {'opened': true},
-                        },
-                        {
-                          'text': '3.3.2.Quyền sở hữu tài sản kỹ thuật số',
-                          'id': 'child3.3.2',
-                          'state': {'opened': true},
-                        },
-                        {
-                          'text': '3.3.3.Ứng dụng trong quản trị phi tập trung (DAO)',
-                          'id': 'child3.3.3',
-                          'state': {'opened': true},
-                        },
-                      ]
-                    },
-                  ]
-                },
+                // {
+                //   'text': 'Cryptocurrencies',
+                //   'id': 'child2',
+                //   'state': { 'opened': true }, // Mở rộng nút gốc
+                //   'children': [
+                //       { 
+                //         'text': '2.1.Khái niệm cơ bản',
+                //         'id': 'child2.1', // Thêm id cho mục con
+                //         'state': { 'opened': true},
+                //         'children': [
+                //             {
+                //               'text': '2.1.1.Tiền mã hóa là gì?',
+                //               'id': 'child2.1.1',
+                //               'state': { 'opened': true},
+                //             },
+                //             {
+                //               'text': '2.1.2.Cách hoạt động của tiền mã hóa',
+                //               'id': 'child2.1.2',
+                //               'state': { 'opened': true},
+                //             },
+                //         ]
+                //       },
+                //       { 
+                //         'text': '2.2.Các loại tiền mã hóa phổ biến',
+                //         'id': 'child2.2', // Thêm id cho mục con
+                //         'state': { 'opened': true},
+                //         'children': [
+                //             {
+                //               'text': '2.2.1.Bitcoin (BTC)',
+                //               'id': 'child2.2.1',
+                //               'state': { 'opened': true},
+                //             },
+                //             {
+                //               'text': '2.2.2.Ethereum (ETH)',
+                //               'id': 'child2.2.2',
+                //               'state': { 'opened': true},
+                //             },
+                //             {
+                //               'text': '2.2.3.Altcoins và Token',
+                //               'id': 'child2.2.3',
+                //               'state': { 'opened': true},
+                //             },
+                //         ]
+                //     },
+                //     { 
+                //       'text': '2.3.Các cơ chế đồng thuận',
+                //       'id': 'child2.3', // Thêm id cho mục con
+                //       'state': { 'opened': true},
+                //       'children': [
+                //           {
+                //             'text': '2.3.1.Proof of Work (PoW)',
+                //             'id': 'child2.3.1',
+                //             'state': { 'opened': true},
+                //           },
+                //           {
+                //             'text': '2.3.2.Proof of Stake (PoS)',
+                //             'id': 'child2.3.2',
+                //             'state': { 'opened': true},
+                //           },
+                //           {
+                //             'text': '2.3.3.Các cơ chế đồng thuận mới',
+                //             'id': 'child2.3.3',
+                //             'state': { 'opened': true},
+                //           },
+                //       ]
+                //     },
+                //     { 
+                //       'text': '2.4.Sàn giao dịch tiền mã hóa',
+                //       'id': 'child2.4', // Thêm id cho mục con
+                //       'state': { 'opened': true},
+                //       'children': [
+                //           {
+                //             'text': '2.4.1.Sàn giao dịch tập trung (CEX)',
+                //             'id': 'child2.4.1',
+                //             'state': { 'opened': true},
+                //           },
+                //           {
+                //             'text': '2.4.2.Sàn giao dịch phi tập trung (DEX)',
+                //             'id': 'child2.4.2',
+                //             'state': { 'opened': true},
+                //           },
+                //       ]
+                //     },
+                //     { 
+                //       'text': '2.5.Ví tiền mã hóa',
+                //       'id': 'child2.5', // Thêm id cho mục con
+                //       'state': { 'opened': true},
+                //       'children': [
+                //           {
+                //             'text': '2.5.1.Ví nóng (Hot Wallet)',
+                //             'id': 'child2.5.1',
+                //             'state': { 'opened': true},
+                //           },
+                //           {
+                //             'text': '2.5.2.Ví lạnh (Cold Wallet)',
+                //             'id': 'child2.5.2',
+                //             'state': { 'opened': true},
+                //           },
+                //           {
+                //             'text': '2.5.3.Ví không giám hộ (Non-custodial Wallets)',
+                //             'id': 'child2.5.3',
+                //             'state': { 'opened': true},
+                //           },
+                //       ]
+                //     },
+                //   ]
+                // },
+                // {
+                //   'text': 'Smart Contracts',
+                //   'id': 'child3',
+                //   'state': {'opened': true},
+                //   'children': [
+                //     {
+                //       'text': '3.1.Khái niệm cơ bản',
+                //       'id': 'child3.1',
+                //       'state': {'opened': true},
+                //       'children': [
+                //         {
+                //           'text': '3.1.1.Hợp đồng thông minh là gì?',
+                //           'id': 'child3.1.1',
+                //           'state': {'opened': true},
+                //         },
+                //         {
+                //           'text': '3.1.2.Lịch sử phát triển',
+                //           'id': 'child3.1.1',
+                //           'state': {'opened': true},
+                //         },
+                //       ]
+                //     },
+                //     {
+                //       'text': '3.2.Cách thức hoạt động',
+                //       'id': 'child3.2',
+                //       'state': {'opened': true},
+                //       'children': [
+                //         {
+                //           'text': '3.2.1.Cơ chế tự động hóa',
+                //           'id': 'child3.2.1',
+                //           'state': {'opened': true},
+                //         },
+                //         {
+                //           'text': '3.1.2.Điều kiện và quy tắc (If-Then statements)',
+                //           'id': 'child3.1.2',
+                //           'state': {'opened': true},
+                //         },
+                //         {
+                //           'text': '3.1.3.Hợp đồng thông minh tương tác (Composable Smart Contracts)',
+                //           'id': 'child3.1.3',
+                //           'state': {'opened': true},
+                //         },
+                //       ]
+                //     },
+                //     {
+                //       'text': '3.3.Ứng dụng của hợp đồng thông minh',
+                //       'id': 'child3.3',
+                //       'state': {'opened': true},
+                //       'children': [
+                //         {
+                //           'text': '3.3.1.Tài chính phi tập trung (DeFi)',
+                //           'id': 'child3.3.1',
+                //           'state': {'opened': true},
+                //         },
+                //         {
+                //           'text': '3.3.2.Quyền sở hữu tài sản kỹ thuật số',
+                //           'id': 'child3.3.2',
+                //           'state': {'opened': true},
+                //         },
+                //         {
+                //           'text': '3.3.3.Ứng dụng trong quản trị phi tập trung (DAO)',
+                //           'id': 'child3.3.3',
+                //           'state': {'opened': true},
+                //         },
+                //       ]
+                //     },
+                //     {
+                //       'text': '3.4.Ứng dụng của hợp đồng thông minh',
+                //       'id': 'child3.3',
+                //       'state': {'opened': true},
+                //       'children': [
+                //         {
+                //           'text': '3.3.1.Tài chính phi tập trung (DeFi)',
+                //           'id': 'child3.3.1',
+                //           'state': {'opened': true},
+                //         },
+                //         {
+                //           'text': '3.3.2.Quyền sở hữu tài sản kỹ thuật số',
+                //           'id': 'child3.3.2',
+                //           'state': {'opened': true},
+                //         },
+                //         {
+                //           'text': '3.3.3.Ứng dụng trong quản trị phi tập trung (DAO)',
+                //           'id': 'child3.3.3',
+                //           'state': {'opened': true},
+                //         },
+                //       ]
+                //     },
+                //   ]
+                // },
                 // {
                 //   'text': '',
                 //   'id': '',
